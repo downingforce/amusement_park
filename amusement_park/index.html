@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+  <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>This section will become the HEADER</h1>
+        <div class="survey_results">
+          <form class="form form-inline">
+            <div class="form-group">
+              <label for="feet">Select your height (Feet, Inches)</label>
+              <select id="feet" class="form-control">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inches"></label>
+              <select id="inches" class="form-control">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+              </select>
+            </div>
+            <button type="submit" name="submit">Submit</button>
+          </form>
+<!-- Start Coursel -->
+          <div class="carousel slide jumbotron" id="roller_coasters">
+            <div class="container">
+              <ol class="carousel-indicators">
+                <li id="active" data-target="#roller_coasters" data-slide-to="0"></li>
+                <li id="small" data-target="#roller_coasters" data-slide-to="1"></li>
+                <li id="small" data-target="#roller_coasters" data-slide-to="2"></li>
+                <li id="normal" data-target="#roller_coasters" data-slide-to="3"></li>
+                <li id="normal" data-target="#roller_coasters" data-slide-to="4"></li>
+                <li id="normal" data-target="#roller_coasters" data-slide-to="5"></li>
+                <li id="big" data-target="#roller_coasters" data-slide-to="6"></li>
+                <li id="big" data-target="#roller_coasters" data-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                    <h3>Welcome to the Jungle!</h3>
+                    <p>
+                      This amusement park provided to you by the folks at Epicodus! Enjoy!
+                    </p>
+                </div>
+                <div class="item small">
+                  <p id="tea" class="small_fry">Teacups</p>
+                </div>
+                <div class="item small">
+                  <p id="fantasy" class="small_fry">Fantasy Train</p>
+                </div>
+                <div class="item normal">
+                  <p id="rocket" class="normal_fry">Rocket Coaster</p>
+                </div>
+                <div class="item normal">
+                  <p id="super" class="normal_fry">Superhero Ride</p>
+                </div>
+                <div class="item normal">
+                  <p id="terror" class="normal_fry">The Terror Drop</p>
+                </div>
+                <div class="item big">
+                  <p id="melter" class="big_fry">Face Melter</p>
+                </div>
+                <div class="item big">
+                  <p id="wrong" class="big_fry">Wrong Choice of Ride</p>
+                </div>
+              </div>
+
+            </div>
+            <a class="left carousel-control" href="#roller_coasters" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#roller_coasters" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

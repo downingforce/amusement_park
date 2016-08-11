@@ -1,0 +1,68 @@
+.small_fry  {
+  display: none;
+}
+
+.normal_fry  {
+  display: none;
+}
+
+.big_fry  {
+  display: none;
+}
+
+
+#tea {
+  background-image: url(../img/teacup.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#fantasy {
+  background-image: url(../img/train.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#rocket {
+  background-image: url(../img/rocket.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#super {
+  background-image: url(../img/superhero.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#terror {
+  background-image: url(../img/terrorDrop.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#melter {
+  background-image: url(../img/melt.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+#wrong {
+  background-image: url(../img/wrong.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
