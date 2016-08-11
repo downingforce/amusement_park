@@ -14,7 +14,7 @@
   <body>
     <div class="container">
 <!-- First Jumbotron -->
-      <div class="jumbotron">
+      <div id="survey1" class="jumbotron">
         <h1>This section will become the HEADER</h1>
         <div class="survey_results">
           <form class="form form-inline">
@@ -76,7 +76,7 @@
                   <p id="rocket" class="normal_fry">Rocket Coaster</p>
                 </div>
                 <div class="item normal">
-                  <p id="super" class="normal_fry">Superhero Ride</p>
+                  <p id="batman" class="normal_fry">Superhero Ride</p>
                 </div>
                 <div class="item normal">
                   <p id="terror" class="normal_fry">The Terror Drop</p>
@@ -102,30 +102,54 @@
       </div>
 <!-- End of First Jumbotron -->
 <!-- Start of next survey -->
-      <div class="jumbotron">
-        <form class="form">
+      <div id="second_jumbotron" class="jumbotron survey_results_2">
+        <form class="form" id="survey2">
           <h2>Now let's help you pick a roller coaster you'll enjoy</h2>
-          <div class="form-group">
+          <div id="question1" class="form-group">
             <h3>Pick your favorite types of Roller Coaster</h3>
               <div id="type" class="checkbox">
-                <label><input type="checkbox" value="">Rail</label>
-                <label><input type="checkbox" value="">Water</label>
-                <label><input type="checkbox" value="">Drops</label>
-                <label><input type="checkbox" value="">Loops</label>
+                <label><input id="rail" type="checkbox" value="">Rail</label>
+                <label><input id="water" type="checkbox" value="">Water</label>
+                <label><input id="drops" type="checkbox" value="">Drops</label>
+                <label><input id="loops" type="checkbox" value="">Loops</label>
               </div>
           </div>
-          <div class="form-group">
+          <div id="question2" class="form-group">
             <h3>How fast would you like to go?</h3>
               <div id="speed" class="checkbox">
-                <label><input type="checkbox" value="">Slow</label>
-                <label><input type="checkbox" value="">Medium</label>
-                <label><input type="checkbox" value="">Fast</label>
-                <label><input type="checkbox" value="">Pee your pants</label>
+                <label><input id="slow" type="checkbox" value="">Slow</label>
+                <label><input id="medium" type="checkbox" value="">Medium</label>
+                <label><input id="fast" type="checkbox" value="">Fast</label>
               </div>
           </div>
+          <button type="submit" name="submit">Submit</button>
         </form>
       </div>
 <!-- End of second Jumbotron -->
+      <div class="jumbotron userPick">
+        <div class="item small">
+          <p class="results tea2">Teacups</p>
+        </div>
+        <div class="item small">
+          <p class="results fantasy2">Fantasy Train</p>
+        </div>
+        <div class="item normal">
+          <p class="results rocket2">Rocket Coaster</p>
+        </div>
+        <div class="item normal">
+          <p class="results batman2">Superhero Ride</p>
+        </div>
+        <div class="item normal">
+          <p class="results terror2">The Terror Drop</p>
+        </div>
+        <div class="item big">
+          <p class="results melter2">Face Melter</p>
+        </div>
+        <div class="item big">
+          <p class="results wrong2">Wrong Choice of Ride</p>
+        </div>
+
+      </div>
     </div>
   </body>
 </html>

@@ -11,6 +11,7 @@
 }
 
 
+
 #tea {
   background-image: url(../img/teacup.jpg);
   height: 300px;
@@ -65,4 +66,77 @@
   text-align: center;
   color: white;
   font-size: 6rem;
+}
+
+.results {
+  display: none
+}
+
+
+#second_jumbotron{
+  display: none;
+}
+
+.tea2 {
+  background-image: url(../img/teacup.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+.fantasy2 {
+  background-image: url(../img/train.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+
+.rocket2 {
+  background-image: url(../img/rocket.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+.super2 {
+  background-image: url(../img/superhero.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+.terror2 {
+  background-image: url(../img/terrorDrop.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+.melter2 {
+  background-image: url(../img/melt.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
+}
+
+.wrong2 {
+  background-image: url(../img/wrong.jpg);
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  height: 300px;
 }
